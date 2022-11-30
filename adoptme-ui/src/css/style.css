@@ -1,0 +1,144 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  -moz-osx-font-smoothing: grayscale; /* Firefox */
+  -webkit-font-smoothing: antialiased; /* WebKit  */
+}
+
+.column-gap-10 {
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+.column-gap-20 {
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+
+/*
+*  BEM: Block, Element, Modifier
+*/
+.b-header {
+  background-color: white;
+  min-height: 50px;
+  padding: 5px 0;
+}
+
+.b-header--highlighted {
+  background-color: #ef3e42;
+}
+
+.b-header--high-contrast {
+  background-color: black;
+}
+
+.b-header a {
+  color: white;
+}
+
+.b-header li,
+.b-footer li {
+  list-style: none;
+  margin: 5px 10px;
+  display: inline;
+}
+
+.b-header ul {
+  margin: 0;
+}
+
+.b-navigation {
+  /*border: 1px solid white;*/
+  margin: 6px;
+}
+
+.b-logo__title {
+  color: white !important;
+}
+
+.routeText {
+  color: white;
+  text-decoration: none;
+}
+.routeText:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.b-footer {
+  background-color: blue;
+  min-height: 50px;
+  padding: 5px 0;
+}
+.b-footer .routeText {
+  text-align: center;
+}
+
+/* _utils.scss */
+.margin-top-xs {
+  margin-top: 10px;
+}
+
+.margin-top-sm {
+  margin-top: 20px;
+}
+
+.card-img {
+  max-width: 260px;
+  max-height: 260px;
+  margin: 0 auto;
+}
+
+.b-tabs-container .nav-tabs li {
+  margin-bottom: 6px;
+}
+.b-tabs-container .nav-tabs li a {
+  text-decoration: none;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  border-radius: 4px 4px 0 0;
+  color: #337ab7;
+  padding: 10px 15px;
+  margin-right: 2px;
+}
+.b-tabs-container .nav-tabs li a:hover {
+  border-color: #eee #eee #ddd;
+  background-color: #eee;
+  color: #23527c;
+}
+.b-tabs-container .nav-tabs li .activeLink {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+.b-tabs-container .nav-tabs li .activeLink:hover {
+  border-color: #ddd;
+  background-color: #fff;
+  color: #555;
+  border-bottom-color: transparent;
+}
+@media screen and (max-width: 420px) {
+  .b-tabs-container .nav-tabs li a {
+    padding: 10px 2px;
+  }
+}
+
+a:-webkit-any-link {
+  color: unset;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.readMoreText {
+  color: #2589e0 !important;
+}
+.readMoreText:hover {
+  color: #0a4d86 !important;
+}
+
+.valanteerContent {
+  max-height: 485px;
+  overflow: auto;
+}/*# sourceMappingURL=style.css.map */
